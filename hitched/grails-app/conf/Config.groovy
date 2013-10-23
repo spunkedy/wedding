@@ -120,3 +120,16 @@ grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'co.withgod.hi
 grails.plugins.springsecurity.authority.className = 'co.withgod.hitched.Role'
 
 grails.views.javascript.library="jquery"
+
+grails {
+    mail {
+        host = "smtp.gmail.com"
+        port = 465
+        username = "celpa.firl@gmail.com"
+        password = "One7eighty"
+        props = ["mail.smtp.auth":"true",
+                "mail.smtp.socketFactory.port":"465",
+                "mail.smtp.socketFactory.class":"javax.net.ssl.SSLSocketFactory",
+                "mail.smtp.socketFactory.fallback":"false"]
+    }
+}

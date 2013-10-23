@@ -4,33 +4,33 @@
     <meta name="layout" content="twitter"/>
 </head>
 <body>
-<div class="jumbotron">
-    <div class="container">
-        <h2>We are registered at the following locations:</h2>
-    </div>
-    <hr>
-    <div class="container">
-        <!-- Example row of columns -->
-        <div class="row">
-
-            <div class="col-lg-4">
-                <h2><a href="http://www.amazon.com/registry/wedding/1FTDJTP2HVSKN">Amazon</a></h2>
-            </div>
-            <div class="col-lg-4">
-                <h2><a href="https://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?registryId=10722027&eventType=Wedding">Bed Bath & Beyond</a></h2>
-            </div>
-            <div class="col-lg-4">
-                <h2><a href="http://www.crateandbarrel.com/Gift-Registry/Ed-Bond-and-Shannon-Lawson/r5100886">Crate & Barrel</a></h2>
-
-            </div>
+    <div class="jumbotron">
+        <div class="container">
+            <h2>We are registered at the following locations:</h2>
         </div>
-        <br>
+        <hr>
+        <div class="container">
+            <!-- Example row of columns -->
+            <div class="row">
+
+                <div class="col-lg-4">
+                    <h2><a href="http://www.amazon.com/registry/wedding/1FTDJTP2HVSKN">Amazon</a></h2>
+                </div>
+                <div class="col-lg-4">
+                    <h2><a href="https://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?registryId=10722027&eventType=Wedding">Bed Bath & Beyond</a></h2>
+                </div>
+                <div class="col-lg-4">
+                    <h2><a href="http://www.crateandbarrel.com/Gift-Registry/Ed-Bond-and-Shannon-Lawson/r5100886">Crate & Barrel</a></h2>
+
+                </div>
+            </div>
+            <br>
 
 
-    </div> <!-- /container -->
+        </div> <!-- /container -->
 
-    <hr>
-</div>
+        <hr>
+    </div>
 <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBBj9ekcRnRLQypDIHj9ITf8fcpJFE945k&sensor=false"></script>
 <script src="<g:resource dir="js/google" file="mapping.js"/>"></script>
 

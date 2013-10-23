@@ -16,7 +16,6 @@ class MainController {
 
     def location() {}
 
-    def rsvp() {}
 
     def registries() {}
 

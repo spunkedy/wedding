@@ -17,7 +17,7 @@
             <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
                 <ul class="nav navbar-nav">
                     <li><a href="${createLink(uri: '/')}">Home</a></li>
-                    <li><g:link controller="main" action="rsvp">RSVP</g:link></li>
+                    <li><g:link controller="person" action="create">RSVP</g:link></li>
                     <li><g:link controller="main" action="registries">Registries</g:link></li>
                     <li><g:link controller="main" action="location">Location</g:link></li>
                     <sec:ifLoggedIn>

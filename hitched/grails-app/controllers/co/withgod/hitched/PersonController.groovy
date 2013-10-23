@@ -4,6 +4,7 @@ import grails.plugins.springsecurity.Secured
 
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
+import grails.converters.JSON
 
 @Transactional(readOnly = true)
 
@@ -23,6 +24,10 @@ class PersonController {
         respond personInstance
     }
 
+    def thankYou() {
+    }
+
+
     def create() {
         respond new Person(params)
     }
@@ -34,6 +39,10 @@ class PersonController {
             return
         }
 
+
+        personInstance.registered = new Date()
+        personInstance.validate()
+
         if (personInstance.hasErrors()) {
             respond personInstance.errors, view: 'create'
             return
@@ -41,13 +50,19 @@ class PersonController {
 
         personInstance.save flush: true
 
-        request.withFormat {
-            form {
-                flash.message = message(code: 'default.created.message', args: [message(code: 'personInstance.label', default: 'Person'), personInstance.id])
-                redirect personInstance
-            }
-            '*' { respond personInstance, [status: CREATED] }
+
+        //Send mail
+
+        JSON.use('deep')
+
+        sendMail {
+            to "celpa.firl@gmail.com" , "shanlawson517@gmail.com"
+            subject "[Hitched] ${personInstance.firstName} ${personInstance.lastName} just registered"
+            body "${(personInstance as JSON).toString(true)}"
         }
+
+
+        redirect(action: "thankYou")
     }
 
     @Secured(['ROLE_ADMIN'])
