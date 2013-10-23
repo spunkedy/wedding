@@ -2,33 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc589626-acd7-4e0d-9148-9c61a83aa2d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/WEB-INF/jetty-web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/person/thankYou.gsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/main/rsvp.gsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/WEB-INF/jetty-web.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../site" afterPath="$PROJECT_DIR$/../site" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/LoginController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/LoginController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/LogoutController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/LogoutController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/co/withgod/hitched/MainController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/co/withgod/hitched/MainController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/co/withgod/hitched/PersonController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/co/withgod/hitched/PersonController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/person/_form.gsp" afterPath="$PROJECT_DIR$/grails-app/views/person/_form.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/person/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/person/create.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hitched-grailsPlugins.iml" afterPath="$PROJECT_DIR$/hitched-grailsPlugins.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hitched.iml" afterPath="$PROJECT_DIR$/hitched.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/main/registries.gsp" afterPath="$PROJECT_DIR$/grails-app/views/main/registries.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/css/styles.css" afterPath="$PROJECT_DIR$/web-app/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/twitter.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/twitter.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/web.xml.tmp" afterPath="$PROJECT_DIR$/target/work/web.xml.tmp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/main/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/main/index.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hitched.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
     <file path="/BuildConfig.groovy" changelist="cc589626-acd7-4e0d-9148-9c61a83aa2d0" time="1382507524743" ignored="false" />
-    <file path="/Dummy.txt" changelist="cc589626-acd7-4e0d-9148-9c61a83aa2d0" time="1382505055669" ignored="false" />
+    <file path="/Dummy.txt" changelist="cc589626-acd7-4e0d-9148-9c61a83aa2d0" time="1382512593200" ignored="false" />
     <file path="/Person.groovy" changelist="cc589626-acd7-4e0d-9148-9c61a83aa2d0" time="1382328775192" ignored="false" />
     <file path="/BootStrap.groovy" changelist="cc589626-acd7-4e0d-9148-9c61a83aa2d0" time="1382313931758" ignored="false" />
     <file path="/index.gsp" changelist="cc589626-acd7-4e0d-9148-9c61a83aa2d0" time="1382503807602" ignored="false" />
@@ -64,6 +49,7 @@
     <file path="/create.gsp" changelist="cc589626-acd7-4e0d-9148-9c61a83aa2d0" time="1382506434687" ignored="false" />
     <file path="/_form.gsp" changelist="cc589626-acd7-4e0d-9148-9c61a83aa2d0" time="1382506986539" ignored="false" />
     <file path="/thankYou.gsp" changelist="cc589626-acd7-4e0d-9148-9c61a83aa2d0" time="1382507330173" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/web.xml.tmp" changelist="cc589626-acd7-4e0d-9148-9c61a83aa2d0" time="1382512625207" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,19 +138,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/person/_form.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="90" selection-start="2339" selection-end="2339" vertical-scroll-proportion="-3.7534246">
-              <folding>
-                <marker date="1382506986000" expanded="true" signature="160:518" placeholder="..." />
-                <marker date="1382506986000" expanded="true" signature="649:972" placeholder="..." />
-                <marker date="1382506986000" expanded="true" signature="716:818" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PersonController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/co/withgod/hitched/PersonController.groovy">
           <provider selected="true" editor-type-id="text-editor">
@@ -203,19 +176,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <file leaf-file-name="twitter.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/twitter.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="97" selection-start="2188" selection-end="2188" vertical-scroll-proportion="-10.269231">
+            <state line="44" column="124" selection-start="1939" selection-end="1939" vertical-scroll-proportion="-19.083334">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jetty-web.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web-app/WEB-INF/jetty-web.xml">
+      <file leaf-file-name="index.gsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/main/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="29" selection-start="240" selection-end="240" vertical-scroll-proportion="0.07785467">
+            <state line="12" column="85" selection-start="472" selection-end="472" vertical-scroll-proportion="0.34749034">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="125" column="16" selection-start="5095" selection-end="5109" vertical-scroll-proportion="-12.576923">
               <folding />
             </state>
           </provider>
@@ -252,7 +234,6 @@
         <option value="$PROJECT_DIR$/grails-app/views/person/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/co/withgod/hitched/MainController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/main/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/twitter.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/main/registries.gsp" />
         <option value="$PROJECT_DIR$/web-app/css/styles.css" />
@@ -264,6 +245,7 @@
         <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/co/withgod/hitched/PersonController.groovy" />
         <option value="$PROJECT_DIR$/web-app/WEB-INF/jetty-web.xml" />
+        <option value="$PROJECT_DIR$/grails-app/views/main/index.gsp" />
       </list>
     </option>
   </component>
@@ -496,7 +478,11 @@
       <created>1382505063352</created>
       <updated>1382505063352</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="first push to server&#10;">
+      <created>1382512604972</created>
+      <updated>1382512604972</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -576,7 +562,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="google maps, registries, and countdown working" />
+    <option name="LAST_COMMIT_MESSAGE" value="first push to server&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -593,6 +579,7 @@
     <MESSAGE value="initial&#10;" />
     <MESSAGE value="working 3 column&#10;" />
     <MESSAGE value="google maps, registries, and countdown working" />
+    <MESSAGE value="first push to server&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -601,20 +588,6 @@
     <entry file="file://$PROJECT_DIR$/grails-app/views/person/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="126" selection-start="859" selection-end="859" vertical-scroll-proportion="-1.6595745">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/main/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="19" selection-start="685" selection-end="685" vertical-scroll-proportion="-5.425532">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/twitter.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="106" selection-start="1147" selection-end="1147" vertical-scroll-proportion="-15.0">
           <folding />
         </state>
       </provider>
@@ -646,9 +619,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="90" selection-start="2339" selection-end="2339" vertical-scroll-proportion="-3.7534246">
           <folding>
-            <marker date="1382506986000" expanded="true" signature="160:518" placeholder="..." />
-            <marker date="1382506986000" expanded="true" signature="649:972" placeholder="..." />
-            <marker date="1382506986000" expanded="true" signature="716:818" placeholder="..." />
+            <marker date="1382506986000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1382506986000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1382506986000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -711,14 +684,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="97" selection-start="2188" selection-end="2188" vertical-scroll-proportion="-10.269231">
+        <state line="125" column="16" selection-start="5095" selection-end="5109" vertical-scroll-proportion="-12.576923">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/WEB-INF/jetty-web.xml">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/twitter.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="29" selection-start="240" selection-end="240" vertical-scroll-proportion="0.07785467">
+        <state line="44" column="124" selection-start="1939" selection-end="1939" vertical-scroll-proportion="-19.083334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/main/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="85" selection-start="472" selection-end="472" vertical-scroll-proportion="0.34749034">
           <folding />
         </state>
       </provider>
