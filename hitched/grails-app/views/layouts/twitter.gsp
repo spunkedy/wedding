@@ -1,24 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title><g:layoutTitle/></title>
+    <title><g:layoutTitle default="Shannon and Ed getting Hitched"/></title>
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="<g:resource dir="css" file="styles.css"/>" rel="stylesheet"/>
     <!-- Bootstrap -->
     <link href="<g:resource dir="css/bootstrap" file="bootstrap.min.css"/>" rel="stylesheet" media="screen">
+
+    <link href="<g:resource dir="css" file="styles.css"/>" rel="stylesheet"/>
     <r:layoutResources/>
 </head>
 <body>
-    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-        <ul class="nav navbar-nav">
-            <li ><a href="/">Home</a></li>
-            <li><a href="price.html">Price</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-<g:layoutBody/>
+    <div id="wrap">
+        <div id="main" class=" clear-top">
+            <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+                <ul class="nav navbar-nav">
+                    <li><a href="${createLink(uri: '/')}">Home</a></li>
+                    <li><g:link controller="main" action="rsvp">RSVP</g:link></li>
+                    <li><g:link controller="main" action="registries">Registries</g:link></li>
+                    <li><g:link controller="main" action="location">Location</g:link></li>
+                    <sec:ifLoggedIn>
+                        <li><g:link controller="person" action="index">People</g:link></li>
+                    </sec:ifLoggedIn>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <sec:ifLoggedIn>
+                        <li><g:link controller="logout" action="index">Log Off</g:link></li>
+                    </sec:ifLoggedIn>
+                    <sec:ifNotLoggedIn>
+                        <li><g:link controller="login" action="auth">Log In</g:link></li>
+                    </sec:ifNotLoggedIn>
+                </ul>
+            </nav>
+            <g:layoutBody/>
+        </div>
+    </div>
+    <footer class="footer"></footer>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="<g:resource dir="js/jquery" file="jquery.min.js"/>"></script>

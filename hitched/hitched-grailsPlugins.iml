@@ -72,6 +72,8 @@
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (hitched-grailsPlugins)">
         <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/3.0.7.RELEASE/spring-security-web-3.0.7.RELEASE.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.0.7.RELEASE/spring-security-core-3.0.7.RELEASE.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/liquibase/liquibase-core/2.0.5/liquibase-core-2.0.5.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-commons-annotations/3.2.0.Final/hibernate-commons-annotations-3.2.0.Final.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/grails/grails-datastore-web/2.0.2.RELEASE/grails-datastore-web-2.0.2.RELEASE.jar!/" />
@@ -87,14 +89,12 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/grails/grails-datastore-gorm-hibernate-core/2.0.2.RELEASE/grails-datastore-gorm-hibernate-core-2.0.2.RELEASE.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/grails/grails-datastore-gorm-hibernate/2.0.2.RELEASE/grails-datastore-gorm-hibernate-2.0.2.RELEASE.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/7.0.42/tomcat-embed-core-7.0.42.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/core/compiler/ecj/3.7.2/ecj-3.7.2.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/aggregate/jetty-all/7.6.0.v20120127/jetty-all-7.6.0.v20120127.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/7.0.42/tomcat-embed-core-7.0.42.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-jasper/7.0.42/tomcat-embed-jasper-7.0.42.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/tomcat-catalina-ant/7.0.42/tomcat-catalina-ant-7.0.42.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/bouncycastle/bcprov-jdk14/138/bcprov-jdk14-138.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/3.0.7.RELEASE/spring-security-web-3.0.7.RELEASE.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.0.7.RELEASE/spring-security-core-3.0.7.RELEASE.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/aggregate/jetty-all/7.6.0.v20120127/jetty-all-7.6.0.v20120127.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
