@@ -14,13 +14,13 @@
             <div class="row">
 
                 <div class="col-lg-4">
-                    <h2><a href="http://www.amazon.com/registry/wedding/1FTDJTP2HVSKN">Amazon</a></h2>
+                    <h2><a href="http://www.amazon.com/registry/wedding/YOURS_HERE">Amazon</a></h2>
                 </div>
                 <div class="col-lg-4">
-                    <h2><a href="https://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?registryId=10722027&eventType=Wedding">Bed Bath & Beyond</a></h2>
+                    <h2><a href="https://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?registryId=YOUR_ID&eventType=Wedding">Bed Bath & Beyond</a></h2>
                 </div>
                 <div class="col-lg-4">
-                    <h2><a href="http://www.crateandbarrel.com/Gift-Registry/Ed-Bond-and-Shannon-Lawson/r5100886">Crate & Barrel</a></h2>
+                    <h2><a href="http://www.crateandbarrel.com/Gift-Registry/YOURS_HERE">Crate & Barrel</a></h2>
 
                 </div>
             </div>

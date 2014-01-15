@@ -3,7 +3,7 @@
 	<head>
 		<meta name="layout" content="twitter">
 		<g:set var="entityName" value="${message(code: 'person.label', default: 'Person')}" />
-		<title><g:message code="default.create.label" args="[entityName]" /></title>
+		<title>RSVP</title>
 	</head>
 	<body>
         <div class="container padjumbo">
@@ -29,7 +29,7 @@
                     <div class="row">
                         <div class="col-lg-4">
                             <fieldset class="buttons">
-                                <g:submitButton name="create" class="save" value="Respond" />
+                                <g:submitButton name="create" class="btn btn-lg btn-primary" value="Respond" />
                             </fieldset>
                         </div>
                     </div>
